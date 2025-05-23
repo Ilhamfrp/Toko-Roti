@@ -40,7 +40,7 @@ void layani() { // dequeue
         cout << "Queue kosong.\n";
     } else {     
         cout << "Sedang melayani pesanan atas nama: " 
-        << depan->nama << " (" << depan->roti << ", Rp" << depan->harga << ")\n";
+        << depan->nama << " | " << depan->roti << " | Rp." << depan->harga << "\n";
         
       pesanan *simpan = new pesanan;
       simpan->nama = depan->nama;
